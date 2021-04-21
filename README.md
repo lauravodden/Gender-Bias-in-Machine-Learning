@@ -9,5 +9,7 @@ This investigation will make use of a web crawler to extract data from several w
 
 Finally, a solution for reducing the gender bias in NLP will be proposed. NLP is an ideal tool for uncovering implicit bias and even understanding the breadth and potentially the source of these biases, and ensuring that these biases do not reinforce harmful prejudices (Sun et al, 2019).
 
+It should be noted that the Tweet dataset is highly imbalanced. There is some risk involved in working with largely imbalanced datasets, since the model could predict all Tweets as male and still be 66% accurate (Kreiger, 2020). For this investigation, I decided against balancing the dataset because we must acknowledge that in the real world, these imbalances do exist.  Balancing the dataset (resampling to reduce relative the number of M and F Tweets) would only serve to artificially eliminate the bias in the first place. The purpose of this investigation is to test a prototype solution to mitigate the gender imbalance in Natural Language processing, so that the bias in prediction models using such data is reduced. In this way, NLP does not perpetuate harmful stereotypes by overclassifying STEM practitioners as male, even though these stereotypes may exist in the real world and in the data. 
+
 442/500
 
