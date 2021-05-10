@@ -1,4 +1,4 @@
-# Gender Bias in Machine Learning: Implications for Women in STEM
+# Gender bias in machine learning: Implications for women in STEM
 
 Laura Vodden
 
